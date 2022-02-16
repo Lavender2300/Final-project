@@ -1,0 +1,25 @@
+.nav{
+    margin: 10px ;
+    padding: 5px ;
+    width: 97vw;
+    height: 50px;
+    background-color: #A6D2C6; 
+    position: sticky;
+    top: 20px;
+    font-weight: bold;
+}
+li{
+display: inline-block;
+}
+a{      
+    color: #ffffff;
+    padding: 5px 5px;
+    text-decoration: none;
+    list-style: none;
+}
+li a:hover{    
+    /*change the link color on hover*/
+    
+    background-color: #8FA9A0; 
+    color: #E1E3D7;
+}

@@ -1,0 +1,61 @@
+.nav{
+    margin: 10px ;
+    padding: 5px ;
+    width: 97vw;
+    height: 50px;
+    background-color: #A6D2C6; 
+    position: sticky;
+    top: 20px;
+    font-weight: bold;
+}
+li{
+display: inline-block;
+}
+a{      
+    color: #ffffff;
+    padding: 5px 5px;
+    text-decoration: none;
+    list-style: none;
+}
+li a:hover{    
+    /*change the link color on hover*/
+    
+    background-color: #8FA9A0; 
+    color: #E1E3D7;
+}
+.container{
+    width: 88vw;
+     height: 25vw;
+     border-color: #F6D5C9;
+     border-style: solid;
+     border-width: 1px;
+     margin: 55px;
+     clear: left;
+     background-color: #F6D5C9;
+     color: #9E5438;
+}
+input[type=text], select, textarea{
+    width:99%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px ;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 2px;
+    margin-right: 5px;
+    resize: vertical;
+}
+input [type=submit]:hover {
+    background-color: #06647D;
+}
+.bottom{
+    width: 97.5vw;
+    height: 8vw;
+    border-color: none;
+    border-style: #A6D2C6;
+    border-width: 1px;
+    margin: 5px;
+    clear: both;
+    background-color:#A6D2C6;
+ }
