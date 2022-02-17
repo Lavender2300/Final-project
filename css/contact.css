@@ -6,7 +6,6 @@
     background-color: #A6D2C6; 
     position: sticky;
     top: 20px;
-    font-weight: bold;
 }
 li{
 display: inline-block;
@@ -59,3 +58,14 @@ input [type=submit]:hover {
     clear: both;
     background-color:#A6D2C6;
  }
+ .text{
+    color: #9E5438;
+    font-style: italic ;
+    font-size: 1vw;
+    display: inline-block;
+}
+ .insta{
+    width:4vw;
+    height:4vw;
+    float:inline-end
+}

@@ -6,7 +6,6 @@
     background-color: #A6D2C6; 
     position: sticky;
     top: 20px;
-    font-weight: bold;
 }
 li{
 display: inline-block;
@@ -22,4 +21,84 @@ li a:hover{
     
     background-color: #8FA9A0; 
     color: #E1E3D7;
+}
+.boxone{
+    width: 95vw;
+    height: 25vw;
+    border-color: #FFCAC4;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #FFCAC4 ;
+    color: #9E5438;
+    font-style: italic;
+    font-size: 1.4vw;
+    clear: left;
+    margin:2px;
+    display:inline-block;
+    
+}
+.pictureone{
+    width:250px;
+    height:250px;
+    display: inline-block;
+    position: absolute;
+    top: 270px;
+    right:200px;
+    box-shadow: #FEE6DC 5px 10px ;
+}    
+.boxtwo{
+    width: 95vw;
+    height: 25vw;
+    border-color: #FFDCD8;
+    border-style: solid;
+    border-width: 1px;
+    background-color:#FFDCD8 ;
+    font-style: italic;
+    color: #9E5438;
+    font-size: 1.4vw;
+    clear: both;
+    margin: 2px;
+}
+.boxthree{
+    width: 95vw;
+    height: 25vw;
+    border-color:#FEE6DC ;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #FEE6DC;
+    font-style: italic;
+    font-size: 1.2vw;
+    color: #9E5438;
+    clear: both;
+    margin: 2px;
+}
+.picturethree{
+    width:400px;
+    height:300px;
+    position: absolute;
+    display: inline-block;
+    top: 1190px;
+    right: 200px;
+    box-shadow: #FFCAC4 5px 10px;
+}
+.bottom{
+    width: 97.5vw;
+    height: 8vw;
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px;
+    clear: both;
+    background-color: #A6D2C6;
+    border-color: #A6D2C6;
+}
+.text{
+    color: #9E5438;
+    font-style: italic ;
+    font-size: 1vw;
+    display: inline-block;
+}
+.insta{
+    width:4vw;
+    height:4vw;
+    float:inline-end
 }

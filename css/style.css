@@ -1,5 +1,5 @@
  
-   .nav{
+.nav{
     margin: 10px ;
     padding: 5px ;
     width: 97vw;
@@ -7,7 +7,7 @@
     background-color: #A6D2C6; 
     position: sticky;
     top: 20px;
-    font-weight: bold;
+    
 }
 li{
 display: inline-block;
@@ -27,12 +27,15 @@ li a:hover{
 }
 .longboxone{
     width: 97.5vw;
-    height: 10vw;
     border-color:#EDF7EF ;
     border-style: solid;
     border-width: 1px;
     margin: 5px;
     background-color:#EDF7EF ;
+    font-size: 5vw;
+    font-style: italic;
+    color:#9E5438;
+    
  }
  
  .shortboxone{
@@ -43,14 +46,20 @@ li a:hover{
      border-width: 1px;
      margin: 5px;
      float: left;
-     background-color: #EDEDED;
-     font-size: 2.8vw;
-     font-style: italic;
+     background-color: #FEE6DC;
+     font-size: 2.9vw;
      padding-left: 2px;
      padding-right: 2px;
-     color: #674B43;
-    
+     color: #9E5438;
  }
+.imageone{
+    width: 35vw;
+    height: 60.6vw;
+}
+.hello{
+     font-style: italic;
+ }   
+ 
  .longshort{
     height: 60.6vw;
     width: 35vw;
@@ -60,14 +69,9 @@ li a:hover{
     margin: 5px;
     float: right;
 }
-
-    
-    
-
- .bottom{
+.bottom{
     width: 97.5vw;
     height: 8vw;
-    border-color: black;
     border-style: solid;
     border-width: 1px;
     margin: 5px;
@@ -75,4 +79,17 @@ li a:hover{
     background-color: #A6D2C6;
     border-color: #A6D2C6;
  }
+ .text{
+     color: #9E5438;
+     font-style: italic ;
+     font-size: 1vw;
+     display: inline-block;
+ }
+ .insta{
+    width:4vw;
+    height:4vw;
+    float:inline-end
+}
+ 
+ 
   
